@@ -10,19 +10,19 @@ import {
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: 'principal',
     pathMatch: 'full',
   },
   {
     path: '',
     component: FullLayoutComponent,
     data: {
-      title: 'Home'
+      title: 'Principal'
     },
     children: [
       {
-        path: 'dashboard',
-        loadChildren: './views/dashboard/dashboard.module#DashboardModule'
+        path: 'principal',
+        loadChildren: './views/principal/principal.module#PrincipalModule'
       }
     ]
   }

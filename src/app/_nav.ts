@@ -1,7 +1,7 @@
 export const navigation = [
   {
-    name: 'Dashboard',
-    url: '/dashboard',
+    name: 'Principal',
+    url: '/principal',
     icon: 'icon-speedometer',
     badge: {
       variant: 'info',
